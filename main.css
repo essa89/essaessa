@@ -1,0 +1,31 @@
+@keyframes donut-explosion {
+    0% {
+        width: 0;
+        height: 0;
+        color: white;
+        
+    }
+
+    33%{
+
+        color: lightsalmon;
+    }
+
+    100%{
+        width: 40rem;
+        height: 40rem;
+        border: 5rem solid rgb(177, 153, 153);
+        font-size: 48px;
+    }
+}
+
+div {
+    position: fixed;
+    width: 10rem;
+    height: 10rem;
+
+    border: 5rem solid purple;
+    border-radius: 10rem;
+    background-color: thistle;
+    animation: donut-explosion 5s infinite alternate-reverse;
+}
